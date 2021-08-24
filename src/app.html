@@ -1,8 +1,9 @@
 <template> 
-  <h1>Aurelia Webpack 5 with aurelia-kendoui-bridge</h1> 
+  <h1>Aurelia with aurelia-kendoui-bridge using pnpm</h1> 
   <!--
-    Uncomment below and the aurelia's webpack loader will give the following error:
+    Aurelia's webpack loader will give the following error when running this project when node modules are installed using pnpm:
     Error: Unable to find module with ID: aurelia-kendoui-bridge/combobox/combobox.html
+    All runs fine when node modules are installed using npm.
   -->
   <require from="aurelia-kendoui-bridge/combobox/combobox"></require> 
   <require from="aurelia-kendoui-bridge/common/template"></require> 
